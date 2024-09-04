@@ -102,5 +102,26 @@ def reset_driver():
 - **웹 드라이버 설정**: Selenium을 사용하여 웹 드라이버 초기화 및 키워드 검색.
 - **데이터베이스 처리**: SQLite3 라이브러리를 사용하여 데이터 저장 및 기존 데이터 조회.
 
+### Robots 규칙
+## 당근마켓
+See http&#58;//www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file  
+User-agent: *  
+Disallow: /ad/*  
+Disallow: /admin  
+Disallow: /wv/*  
+Allow: /wv/faqs  
+Allow: /wv/faqs/*  
+Allow: /wv/feedbacks/new  
+Disallow: /kr/job-posts/about  
+Sitemap: https&#58;//www.daangn.com/sitemap-index.xml  
+
+## 번개장터
+User-agent: *  
+Allow: /  
+Google Search Engine Sitemap  
+Sitemap: https&#58;//m.bunjang.co.kr/sitemap.xml  
+Sitemap: https&#58;//s3.ap-northeast-2.amazonaws.com/bunsitemap/production/sitemap.xml.gz  
+**로봇규칙에 위배되지 않는 크롤링 입니다.**
+
 
 
