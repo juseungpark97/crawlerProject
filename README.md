@@ -104,7 +104,7 @@ def reset_driver():
 
 ### Robots 규칙
 ## 당근마켓
-See http&#58;//www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file  
+See `http://www.robotstxt.org/robotstxt.html` for documentation on how to use the robots.txt file  
 User-agent: *  
 Disallow: /ad/*  
 Disallow: /admin  
@@ -113,14 +113,14 @@ Allow: /wv/faqs
 Allow: /wv/faqs/*  
 Allow: /wv/feedbacks/new  
 Disallow: /kr/job-posts/about  
-Sitemap: https&#58;//www.daangn.com/sitemap-index.xml  
+Sitemap: `https://www.daangn.com/sitemap-index.xml`  
 
 ## 번개장터
 User-agent: *  
 Allow: /  
 Google Search Engine Sitemap  
-Sitemap: https&#58;//m.bunjang.co.kr/sitemap.xml  
-Sitemap: https&#58;//s3.ap-northeast-2.amazonaws.com/bunsitemap/production/sitemap.xml.gz  
+Sitemap: `https://m.bunjang.co.kr/sitemap.xml`  
+Sitemap: `https://s3.ap-northeast-2.amazonaws.com/bunsitemap/production/sitemap.xml.gz`  
 **로봇규칙에 위배되지 않는 크롤링 입니다.**
 
 
