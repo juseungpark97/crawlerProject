@@ -3,6 +3,7 @@
 **Shopping Market Web Crawler v1.0**
 
 **개발 기간**: 2024.08 ~ 2024.09
+![exampleIage](PYWC.png)
 
 ## 버전 정보
 
